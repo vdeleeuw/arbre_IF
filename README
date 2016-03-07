@@ -1,0 +1,58 @@
+PROJET D'IMAGE DE SYNTHESE 2015
+DE LEEUW Valérian - Groupe A
+
+J'ai voulu représenter un arbre.
+Il est articulé au niveau des racines qui se déplacent avec le mouvement.
+Ces branches sont indépendantes et controlables !
+De base, il est dans le sol (enraciné) et ne peut pas bouger.
+Son clone aléatoire aussi, il faut sortir du sol pour que les deux bougent !
+Ils sont créés au même emplacement.
+
+La caméra commence en dehors de la scène pour avoir une vue d'ensemble, mais une fois dedans, on ne peut plus en sortir !
+
+Touches de caméras :
+
+B/b 				-> activation/desactivation du blend
+Page Up				-> recule la caméra
+Page Down			-> rapproche la caméra
+Flèches directionnelles		-> controle la caméra
+
+
+Touches de déplacement de l'arbre :
+
+a/A				-> enracinement/désenracinement de l'arbre
+z/Z				-> déplacement vers l'avant
+q/Q				-> rotation vers la gauche
+s/S				-> déplacement vers l'arrière
+d/d				-> rotation vers la droite
+
+
+Touches de déplacement du soleil :
+
+l/L				-> activation/desactivation du soleil
+w/W				-> déplacement vers la gauche
+x/X				-> déplacement vers la droite
+c/C				-> déplacement vers l'avant
+v/V				-> déplacement vers l'arrière
+
+Touches de controle des bras de l'arbre :
+
+t/T				-> amène la branche gauche derrière
+y/Y				-> amène la branche gauche devant
+u/U				-> lève la branche gauche
+i/I				-> baisse la branche gauche
+
+g/G				-> amène la branche droite derrière
+h/H				-> amène la branche droite devant
+j/J				-> lève la branche droite
+k/K				-> baisse la branche droite
+
+
+Commandes de compilation :
+
+make				-> compile le programme et crée l'executable nommé "opengl"
+make clean			-> supprime tout les .o
+make mrproper			-> supprime tout les .o et l'executable
+
+
+Amusez-vous bien avec mon arbre! :)
